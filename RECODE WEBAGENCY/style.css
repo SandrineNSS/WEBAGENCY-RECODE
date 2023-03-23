@@ -1,0 +1,83 @@
+/*      PARAMETRES GENERAUX    */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    color: #1ca8ff;
+    font-size: 2.2em;
+    text-transform: uppercase;
+}
+
+span h2 {
+    color: #fff;
+    font-size: 1em;
+}
+    
+
+
+/*       FIN PARAMETRES GENERAUX    */
+
+/*       HEADER     */
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.main_menu ul {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    list-style: none;
+}
+
+.
+ul.main_nav {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+}
+
+.logo {
+    display: flex;
+}
+
+.slider-1 {
+    display: flex;
+    animation-duration: 18s;
+    animation-name: mesPhotos;
+    animation-iteration-count: infinite; /* Pour indiquer que ça tourne en boucle */
+}
+
+
+@keyframes mesPhotos {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-1200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
