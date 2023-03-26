@@ -17,13 +17,11 @@ nav li a:hover {
   border-top: 3px solid #5cadd3;
 }
 
-
 .list-link {
   display: flex;
   list-style: none;
   column-gap: 50px;
-  color: rgba(0, 0, 0, .6);
-  
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .logo {
@@ -46,17 +44,16 @@ nav li a:hover {
 }
 
 @keyframes mesPhotos {
-    0% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(-1200px);
-    }
-    100% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-
 
 .text-cover {
   position: absolute;
@@ -78,16 +75,14 @@ nav li a:hover {
   font-size: large;
   padding: 1%;
   margin: 5%;
-} 
+}
 
-h2 /*.text-white*/{
+h2 /*.text-white*/ {
   color: white;
   display: flex;
   font-size: 300%;
   justify-content: center;
 }
-
-
 
 .text-size-standard {
   display: flex;
@@ -105,35 +100,25 @@ h2 /*.text-white*/{
 
 /*    START TEXTE IMAGES + ORDI   */
 
-
 #sec1 {
-    padding-top: 75px;
-    padding-bottom: 30px;
+  padding-top: 75px;
+  padding-bottom: 30px;
 }
 
 .text-container1 {
   display: flex;
 }
 
-
-
-
 .text-picture {
-    border: solid 2px red;
-    /* display: flex; */
-    /* position: relative; */
+  border: solid 2px red;
+  /* display: flex; */
+  /* position: relative; */
 }
-
 
 .text-center {
   display: flex;
   justify-content: center;
 }
-
-.text-container1 {
-  display: flex;
-}
-
 
 .title-2 {
   font-size: 35px;
@@ -141,12 +126,35 @@ h2 /*.text-white*/{
   justify-content: center;
 }
 
+aside ul {
+  list-style-type: none;
+}
+
+.list ul li {
+  padding-bottom: 40px;
+}
+
+.text-container1 {
+  display: flex;
+}
+
+.text-container2 {
+  display: flex;
+}
+
 .bar {
   display: flex;
   justify-content: center;
 }
 
-.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+.fa,
+.fa-brands,
+.fa-classic,
+.fa-regular,
+.fa-sharp,
+.fab,
+.far,
+.fas {
   color: #1ca8f2;
 }
 
@@ -154,25 +162,21 @@ strong {
   margin-right: 90%;
 }
 
-
 i {
-  font-size: 20px;  /* icon */
+  font-size: 20px; /* icon */
 }
 
-.text-projet {   
+.text-projet {
   display: flex;
   justify-content: center;
-}  
+}
 
-
-.item { 
-display: flex; 
-flex-wrap: wrap; 
--ms-flex-wrap: wrap; 
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
 }
 
 .bezel {
   position: absolute;
 }
-
-
